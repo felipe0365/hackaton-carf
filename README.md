@@ -1,5 +1,9 @@
 # 🚗 Projeto de Previsão de Horas de Execução de Processos (HET)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://python.org)
+[![Machine Learning](https://img.shields.io/badge/ML-Scikit--learn-orange.svg)](https://scikit-learn.org)
+
 ## 📋 Visão Geral
 
 Este projeto implementa um sistema de **Machine Learning** para previsão de **Horas de Execução de Processos (HET)** baseado em características binárias de processos industriais. O objetivo é desenvolver modelos preditivos capazes de estimar o tempo necessário para execução de processos com base em suas características específicas.
@@ -110,8 +114,24 @@ Foram testados **5 algoritmos diferentes** com otimização de hiperparâmetros:
 ### Pré-requisitos
 
 ```bash
+# Instalar dependências principais
 pip install pandas numpy scikit-learn xgboost shap matplotlib seaborn joblib openpyxl
+
+# Ou usar o arquivo requirements.txt (se disponível)
+pip install -r requirements.txt
 ```
+
+### Dependências Principais
+
+-   `pandas>=1.3.0` - Manipulação de dados
+-   `numpy>=1.21.0` - Computação numérica
+-   `scikit-learn>=1.0.0` - Machine Learning
+-   `xgboost>=1.5.0` - Gradient Boosting
+-   `shap>=0.40.0` - Interpretabilidade
+-   `matplotlib>=3.5.0` - Visualização
+-   `seaborn>=0.11.0` - Visualização estatística
+-   `joblib>=1.1.0` - Serialização
+-   `openpyxl>=3.0.0` - Leitura de Excel
 
 ### Execução do Script Principal
 
@@ -177,3 +197,11 @@ Este projeto foi desenvolvido como parte de um hackathon, focando em:
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ---
+
+<div align="center">
+
+[![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)](https://python.org)
+[![Powered by Scikit-learn](https://img.shields.io/badge/Powered%20by-Scikit--learn-orange.svg)](https://scikit-learn.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+</div>
